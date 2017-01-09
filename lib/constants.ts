@@ -21,7 +21,7 @@ export class PackageVersion {
 	static LATEST = "latest";
 }
 
-export let PackageJsonKeysToKeep : Array<String> = ["name", "main", "android", "version"];
+export let PackageJsonKeysToKeep: Array<String> = ["name", "main", "android", "version"];
 
 export class SaveOptions {
 	static PRODUCTION = "save";

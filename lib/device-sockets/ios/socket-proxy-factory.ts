@@ -61,7 +61,7 @@ export class SocketProxyFactory implements ISocketProxyFactory {
 
 		let socketFileLocation = temp.path({ suffix: ".sock" });
 		server.listen(socketFileLocation);
-		if(!this.$options.client) {
+		if (!this.$options.client) {
 			this.$logger.info("socket-file-location: " + socketFileLocation);
 		}
 
